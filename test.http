@@ -1,0 +1,10 @@
+# put http://localhost:8000/users/update
+# Content-Type: application/json
+
+# {
+#     "name": "Rajat Khanna",
+#     "age": 40,
+#     "tech": "Asp.Net"
+# }
+
+get http://localhost:8000/users?name=Rajat Khanna
